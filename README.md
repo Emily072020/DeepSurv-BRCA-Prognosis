@@ -1,8 +1,10 @@
 # DeepSurv-BRCA-Prognosis
 🧬 DeepSurv-BRCA: Deep Survival Analysis for Breast Cancer
+
 This repository features a DeepSurv implementation—a deep learning-based Cox proportional hazards model—designed to predict the prognosis (PFI) of Breast Invasive Carcinoma (BRCA) patients using TCGA transcriptomic data.
 
 🎯 Project Highlights
+
 -> Robust Performance: Achieved a test set C-index of 0.7446, significantly outperforming single-gene biomarkers.
 
 -> Precision Engineering: Developed a two-stage feature selection pipeline (Variance filtering + Cox/Correlation screening) to distill 20,000+ genes into a 500-gene prognostic signature.
@@ -12,6 +14,7 @@ This repository features a DeepSurv implementation—a deep learning-based Cox p
 -> Deployment Ready: Built a complete inference pipeline, including automated data normalization (`StandardScaler`) and risk stratification.
 
 📊 Key Results: Clinical Stratification
+
 The model demonstrates strong clinical utility by effectively stratifying patients into distinct risk groups.
 
 -> P-value < 0.0001: Highly significant divergence between High-Risk (Top 25%) and Low-Risk groups.
@@ -19,6 +22,7 @@ The model demonstrates strong clinical utility by effectively stratifying patien
 -> Stability: The stratification remains robust across both median-split and top-quartile thresholds.
 
 🛠️ Usage & Structure
+
 Quick Start
 
 Python
@@ -40,6 +44,7 @@ File Navigation
 -> `reproduce_results.ipynb`: Notebook for generating KM curves and model evaluation.
 
 -> `artifacts/`: Pickled `scaler` and `gene_list` for consistent data preprocessing.
+
 
 Author: Jinhua Liu (Bioinformatics PhD)
 
