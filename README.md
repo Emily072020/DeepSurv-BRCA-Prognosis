@@ -46,6 +46,9 @@ File Navigation
 -> `artifacts/`: Pickled `scaler` and `gene_list` for consistent data preprocessing.
 
 
+Note: This project is a technical demonstration of Deep Learning applications in survival analysis. For clinical use, further validation on independent cohorts is required.
+
+
 Author: Jinhua Liu (Bioinformatics PhD)
 
 Core Stack: PyTorch, Lifelines, Scikit-learn, Pandas
