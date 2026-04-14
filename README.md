@@ -22,8 +22,11 @@ The model demonstrates strong clinical utility by effectively stratifying patien
 Quick Start
 Python
 `# 3-line inference for new patient data`
+
 `from scripts.predict import predict_patient_risk`
+
 `results = predict_patient_risk(new_gene_expression_data)`
+
 `# Returns: [Risk_Score, Risk_Level]`
 File Navigation
 -> `train_DeepSurv.py`: Modular training script (Data cleaning -> Feature Selection -> Training).
